@@ -3,7 +3,10 @@ EGI Psychopy library - Python 3 compatibility update
 
 Psychopy contains a library to support interfacing with EGI EEG equipment. The library was only been compatible with Python 2. We have updated the library to make it compatible with Python 3. We have documented the changes below, and include example code snippets demonstrating how to now set up the EGI connections and send triggers. 
 
-Coding updates were completed in the Fastball lab, https://osf.io/r5tns/, at the University of Bath  by Abhiram Anand Thiruthummal
+Coding updates were completed in the Fastball lab, https://osf.io/r5tns/, at the University of Bath  by Abhiram Anand Thiruthummal, aat63@bath.ac.uk
+
+# Installing
+Make a backup of your existing egi library, typically found in the following path C:\Program Files (x86)\PsychoPy2\Lib\site-packages\egi, delete the egi folder and replace with the version provided. 
 
 # Setting up your connection
 The code below establishes a connection between the Psychopy stimulus presentation computer and the EEG recording computer (Mac) running EGI Netstation Acquisition. 
