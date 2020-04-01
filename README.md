@@ -45,11 +45,11 @@ from socket_wrapper -> from egi.socket_wrapper
 Module Removed: exceptions.
 class Exception moved to builtins from module exceptions.
 
-Definition change: inheriting class Exception by class Eggog
+Definition change: inheriting class Exception by class Eggog.
 class Eggog( exceptions.Exception ) -> class Eggog( Exception )
 
 Datatype removed: long int / type(1L).
 Python 3 only supports a single integer datatype (int).
 
-Datatype change: string to bytes object
+Datatype change: string to bytes object.
 struct.pack() only accepts int, float or bytes object, as its 2,3,4… arguments. All strings passed as 2,3,4… arguments to struct.pack() in simple.py and Fastball_st_mem_objects_condition1.py  converted to bytes object using string prefix b or bytes() with utf-8 encoding.
